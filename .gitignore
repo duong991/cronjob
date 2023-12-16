@@ -1,0 +1,43 @@
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+coverage
+
+# Production build
+build
+
+# dotenv environment variables file
+.env
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+.kateproject
+.kateconfig
+*.tmproj
+*.esproj
+*.code-workspace
+
+# Misc
+*.swp
+*.bak
+*.tmp
+*.d
+*.pyc
+*.db
+*.sqlite3
+*.swp
