@@ -29,7 +29,7 @@ const getProcessInfoBefore = (data, processIdToSearch) => {
     return result;
 };
 
-const returnAllTree = function (
+const returnWithSuspiciousNode = function (
     data,
     ParentOriginalFileName,
     ParentProcessId,
@@ -85,5 +85,5 @@ const returnAllTree = function (
 
 module.exports = {
     getProcessInfoBefore,
-    returnAllTree,
+    returnWithSuspiciousNode,
 };
