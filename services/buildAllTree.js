@@ -26,12 +26,17 @@ const buildAllTree = (module.exports.buildAllTree = async function (
     const idRoot =
         listSuspiciousProcessId.includes(parentProcessId) &&
         listSuspiciousOriginalFileName.includes(originalFileName || image);
+    // const tree = {
+    //     image: image,
+    //     originalFileName: originalFileName || image,
+    //     processId: parentProcessId,
+    //     isRoot: idRoot,
+    //     _id: _id,
+    //     children: [],
+    // };
+
     const tree = {
-        image: image,
-        originalFileName: originalFileName || image,
-        processId: parentProcessId,
-        isRoot: idRoot,
-        _id: _id,
+        name: originalFileName || image,
         children: [],
     };
 
@@ -69,12 +74,17 @@ const buildAllTree = (module.exports.buildAllTree = async function (
                     _source.log.OriginalFileName,
                 );
             return {
+                // tree: {
+                //     image: _source.log.Image,
+                //     originalFileName: _source.log.OriginalFileName,
+                //     processId: _source.log.ProcessId,
+                //     isRoot: idRoot,
+                //     _id: _id,
+                //     children: [],
+                // },
+
                 tree: {
-                    image: _source.log.Image,
-                    originalFileName: _source.log.OriginalFileName,
-                    processId: _source.log.ProcessId,
-                    isRoot: idRoot,
-                    _id: _id,
+                    name: _source.log.OriginalFileName,
                     children: [],
                 },
             };

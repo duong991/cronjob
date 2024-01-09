@@ -151,7 +151,12 @@ class App {
                     suspicious,
                 );
 
-            return resultWithSuspiciousNode;
+            const final = {
+                name: "Root",
+                value: 0,
+                children: [resultWithSuspiciousNode],
+            };
+            return final;
 
             // const { nodes, edges } = this.convertToNode(
             //     resultWithSuspiciousNode,

@@ -1,279 +1,131 @@
 {
-    "image": "System",
-    "originalFileName": "System",
-    "processId": 4,
-    "isRoot": true,
+    "name": "Root",
+    "value": 0,
     "children": [
         {
-            "image": "C:\\Windows\\System32\\smss.exe",
-            "originalFileName": "smss.exe",
-            "processId": 904,
-            "isRoot": true,
-            "_id": "C45oTIwBTL1T3o7WXXcF",
+            "name": "System",
             "children": [
                 {
-                    "image": "C:\\Windows\\System32\\smss.exe",
-                    "originalFileName": "smss.exe",
-                    "processId": 1020,
-                    "isRoot": true,
-                    "_id": "DI5oTIwBTL1T3o7WXXcF",
+                    "name": "smss.exe",
                     "children": [
                         {
-                            "image": "C:\\Windows\\System32\\wininit.exe",
-                            "originalFileName": "WinInit.exe",
-                            "processId": 1068,
-                            "isRoot": true,
-                            "_id": "Eo5oTIwBTL1T3o7WXXcF",
+                            "name": "smss.exe",
                             "children": [
                                 {
-                                    "image": "C:\\Windows\\System32\\services.exe",
-                                    "originalFileName": "services.exe",
-                                    "processId": 1180,
-                                    "isRoot": true,
-                                    "_id": "FY5oTIwBTL1T3o7WXXcF",
+                                    "name": "WinInit.exe",
                                     "children": [
                                         {
-                                            "image": "C:\\Windows\\SysWOW64\\BluProService.exe",
-                                            "originalFileName": "BluProService.exe",
-                                            "processId": 3720,
-                                            "isRoot": true,
-                                            "_id": "rmRoTIwBymledHfwcLdL",
+                                            "name": "services.exe",
                                             "children": [
                                                 {
-                                                    "image": "C:\\Windows\\SysWOW64\\cmd.exe",
-                                                    "originalFileName": "Cmd.Exe",
-                                                    "processId": 16932,
-                                                    "isRoot": true,
-                                                    "_id": "j3IOTYwBymledHfwAcOn",
+                                                    "name": "BluProService.exe",
                                                     "children": [
                                                         {
-                                                            "originalFileName": "wmic.exe",
-                                                            "image": "C:\\Windows\\SysWOW64\\wbem\\WMIC.exe",
-                                                            "processId": 1468,
-                                                            "isRoot": true,
+                                                            "name": "Cmd.Exe",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "Cmd.Exe",
+                                                            "children": [
+                                                                {
+                                                                    "name": "wmic.exe",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Cmd.Exe",
+                                                            "children": [
+                                                                {
+                                                                    "name": "wmic.exe",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Cmd.Exe",
+                                                            "children": [
+                                                                {
+                                                                    "name": "wmic.exe",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Cmd.Exe",
+                                                            "children": [
+                                                                {
+                                                                    "name": "wmic.exe",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "svchost.exe",
+                                                    "children": [
+                                                        {
+                                                            "name": "WinWord.exe",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "dllhost.exe",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "Wmiprvse.exe",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "Wmiprvse.exe",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "smartscreen.exe",
                                                             "children": []
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    "image": "C:\\Windows\\SysWOW64\\cmd.exe",
-                                                    "originalFileName": "Cmd.Exe",
-                                                    "processId": 6620,
-                                                    "isRoot": false,
-                                                    "_id": "KpKWTIwBTL1T3o7W0Ggh",
-                                                    "children": [
-                                                        {
-                                                            "image": "C:\\Windows\\SysWOW64\\wbem\\WMIC.exe",
-                                                            "originalFileName": "wmic.exe",
-                                                            "processId": 7824,
-                                                            "isRoot": false,
-                                                            "_id": "K5KWTIwBTL1T3o7W0Ggh",
-                                                            "children": []
-                                                        }
-                                                    ]
+                                                    "name": "svchost.exe",
+                                                    "children": []
                                                 },
                                                 {
-                                                    "image": "C:\\Windows\\SysWOW64\\cmd.exe",
-                                                    "originalFileName": "Cmd.Exe",
-                                                    "processId": 2460,
-                                                    "isRoot": false,
-                                                    "_id": "LZKWTIwBTL1T3o7W0Ggh",
-                                                    "children": [
-                                                        {
-                                                            "image": "C:\\Windows\\SysWOW64\\wbem\\WMIC.exe",
-                                                            "originalFileName": "wmic.exe",
-                                                            "processId": 14972,
-                                                            "isRoot": false,
-                                                            "_id": "LJKXTIwBTL1T3o7WuHt7",
-                                                            "children": []
-                                                        }
-                                                    ]
+                                                    "name": "svchost.exe",
+                                                    "children": []
                                                 },
                                                 {
-                                                    "image": "C:\\Windows\\SysWOW64\\cmd.exe",
-                                                    "originalFileName": "Cmd.Exe",
-                                                    "processId": 1664,
-                                                    "isRoot": false,
-                                                    "_id": "Y_d3TIwBwPOSgkJjPfHr",
+                                                    "name": "upfc.exe",
                                                     "children": [
                                                         {
-                                                            "image": "C:\\Windows\\SysWOW64\\wbem\\WMIC.exe",
-                                                            "originalFileName": "wmic.exe",
-                                                            "processId": 7748,
-                                                            "isRoot": false,
-                                                            "_id": "ZPd3TIwBwPOSgkJjPfHr",
-                                                            "children": []
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "image": "C:\\Windows\\SysWOW64\\cmd.exe",
-                                                    "originalFileName": "Cmd.Exe",
-                                                    "processId": 7700,
-                                                    "isRoot": false,
-                                                    "_id": "epKbTIwBTL1T3o7WVcs8",
-                                                    "children": [
-                                                        {
-                                                            "image": "C:\\Windows\\SysWOW64\\wbem\\WMIC.exe",
-                                                            "originalFileName": "wmic.exe",
-                                                            "processId": 1540,
-                                                            "isRoot": false,
-                                                            "_id": "eJKbTIwBTL1T3o7WVcs8",
+                                                            "name": "sihclient.exe",
                                                             "children": []
                                                         }
                                                     ]
                                                 }
                                             ]
                                         },
-                                        {
-                                            "image": "C:\\Windows\\System32\\svchost.exe",
-                                            "originalFileName": "svchost.exe",
-                                            "processId": 1364,
-                                            "isRoot": false,
-                                            "_id": "FI5oTIwBTL1T3o7WXXcF",
-                                            "children": [
-                                                {
-                                                    "image": "C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
-                                                    "originalFileName": "WinWord.exe",
-                                                    "processId": 16784,
-                                                    "isRoot": false,
-                                                    "_id": "ggEDTYwBwPOSgkJjUn_U",
-                                                    "children": []
-                                                },
-                                                {
-                                                    "image": "C:\\Windows\\SysWOW64\\dllhost.exe",
-                                                    "originalFileName": "dllhost.exe",
-                                                    "processId": 10464,
-                                                    "isRoot": false,
-                                                    "_id": "tQEJTYwBwPOSgkJjUMWg",
-                                                    "children": []
-                                                },
-                                                {
-                                                    "image": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
-                                                    "originalFileName": "Wmiprvse.exe",
-                                                    "processId": 9232,
-                                                    "isRoot": false,
-                                                    "_id": "4P27TIwBwPOSgkJjwCrO",
-                                                    "children": []
-                                                },
-                                                {
-                                                    "image": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
-                                                    "originalFileName": "Wmiprvse.exe",
-                                                    "processId": 14252,
-                                                    "isRoot": false,
-                                                    "_id": "-23GTIwBymledHfwDKD0",
-                                                    "children": []
-                                                },
-                                                {
-                                                    "image": "C:\\Windows\\System32\\smartscreen.exe",
-                                                    "originalFileName": "smartscreen.exe",
-                                                    "processId": 9236,
-                                                    "isRoot": false,
-                                                    "_id": "VI5oTIwBTL1T3o7Wq3cO",
-                                                    "children": []
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "image": "C:\\Windows\\System32\\svchost.exe",
-                                            "originalFileName": "svchost.exe",
-                                            "processId": 1688,
-                                            "isRoot": false,
-                                            "_id": "GI5oTIwBTL1T3o7WXXcF",
-                                            "children": []
-                                        },
-                                        {
-                                            "image": "C:\\Windows\\System32\\svchost.exe",
-                                            "originalFileName": "svchost.exe",
-                                            "processId": 1856,
-                                            "isRoot": false,
-                                            "_id": "Io5oTIwBTL1T3o7WXXcF",
-                                            "children": []
-                                        },
-                                        {
-                                            "image": "C:\\Windows\\System32\\upfc.exe",
-                                            "originalFileName": "upfc.exe",
-                                            "processId": 1968,
-                                            "isRoot": false,
-                                            "_id": "I45oTIwBTL1T3o7WXXcF",
-                                            "children": [
-                                                {
-                                                    "image": "C:\\Windows\\System32\\SIHClient.exe",
-                                                    "originalFileName": "sihclient.exe",
-                                                    "processId": 11696,
-                                                    "isRoot": false,
-                                                    "_id": "FWRoTIwBymledHfw1bnI",
-                                                    "children": []
-                                                }
-                                            ]
-                                        }
+                                        { "name": "lsass.exe", "children": [] }
                                     ]
                                 },
-                                {
-                                    "image": "C:\\Windows\\System32\\lsass.exe",
-                                    "originalFileName": "lsass.exe",
-                                    "processId": 1240,
-                                    "isRoot": false,
-                                    "_id": "Fo5oTIwBTL1T3o7WXXcF",
-                                    "children": []
-                                }
+                                { "name": "CSRSS.Exe", "children": [] }
                             ]
                         },
+                        { "name": "AutoChk.Exe", "children": [] },
                         {
-                            "image": "C:\\Windows\\System32\\csrss.exe",
-                            "originalFileName": "CSRSS.Exe",
-                            "processId": 888,
-                            "isRoot": false,
-                            "_id": "DY5oTIwBTL1T3o7WXXcF",
-                            "children": []
-                        }
-                    ]
-                },
-                {
-                    "image": "C:\\Windows\\System32\\autochk.exe",
-                    "originalFileName": "AutoChk.Exe",
-                    "processId": 1020,
-                    "isRoot": false,
-                    "_id": "Do5oTIwBTL1T3o7WXXcF",
-                    "children": []
-                },
-                {
-                    "image": "C:\\Windows\\System32\\smss.exe",
-                    "originalFileName": "smss.exe",
-                    "processId": 1060,
-                    "isRoot": false,
-                    "_id": "EI5oTIwBTL1T3o7WXXcF",
-                    "children": [
-                        {
-                            "image": "C:\\Windows\\System32\\csrss.exe",
-                            "originalFileName": "CSRSS.Exe",
-                            "processId": 1076,
-                            "isRoot": false,
-                            "_id": "EY5oTIwBTL1T3o7WXXcF",
-                            "children": []
-                        },
-                        {
-                            "image": "C:\\Windows\\System32\\winlogon.exe",
-                            "originalFileName": "WINLOGON.EXE",
-                            "processId": 1172,
-                            "isRoot": false,
-                            "_id": "E45oTIwBTL1T3o7WXXcF",
+                            "name": "smss.exe",
                             "children": [
+                                { "name": "CSRSS.Exe", "children": [] },
                                 {
-                                    "image": "C:\\Windows\\System32\\dwm.exe",
-                                    "originalFileName": "dwm.exe",
-                                    "processId": 1604,
-                                    "isRoot": false,
-                                    "_id": "F45oTIwBTL1T3o7WXXcF",
-                                    "children": []
-                                },
-                                {
-                                    "image": "C:\\Windows\\System32\\LogonUI.exe",
-                                    "originalFileName": "logonui.exe",
-                                    "processId": 1612,
-                                    "isRoot": false,
-                                    "_id": "G45oTIwBTL1T3o7WXXcF",
-                                    "children": []
+                                    "name": "WINLOGON.EXE",
+                                    "children": [
+                                        { "name": "dwm.exe", "children": [] },
+                                        {
+                                            "name": "logonui.exe",
+                                            "children": []
+                                        }
+                                    ]
                                 }
                             ]
                         }
